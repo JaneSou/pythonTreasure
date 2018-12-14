@@ -12,7 +12,7 @@ import string
 
 num = input('生成密码数量：')
 seed = "23456789abcdefghijkmnopkrstuvwxyzABCDEDGHIJKLMNPQRSTUVWXYZ"
-for i in range(num):
+for i in range(int(num)):
     sa = []
     for j in range(8):
         sa.append(random.choice(seed))
